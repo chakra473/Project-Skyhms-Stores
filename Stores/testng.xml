@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTestsSuite" verbose="1" parallel="none">
+    <test name="LoginTests">
+        <classes>
+            <!-- Specify the path to your test class here -->
+            <class name="org.example.skyhms.tests.storesTesting"/>
+        </classes>
+    </test>
+</suite>
